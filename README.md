@@ -34,6 +34,7 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **TRUTH TABLE:**
+
 ![1](https://github.com/user-attachments/assets/01d51fd5-b700-43f5-8d6e-53f4b51ac4e6)
 
 
@@ -74,4 +75,5 @@ Developed by: RegisterNumber: 25002119
 
 
 **RESULT:**
+
 Thus, the program for half adder and half subractor has been succesfully executed.
