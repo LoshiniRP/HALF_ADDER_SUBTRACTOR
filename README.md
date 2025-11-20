@@ -67,10 +67,12 @@ endmodule
 Developed by: RegisterNumber: 25002119
 
 **RTL:**
+
 <img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/e4a6c60e-72ad-4756-9a1b-8a05794ca81d" />
 
 
 **TIMING WAVEFORM:**
+
 <img width="1920" height="1080" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/67664c68-2855-4bd1-9e96-58b6d4bb7f8b" />
 
 
