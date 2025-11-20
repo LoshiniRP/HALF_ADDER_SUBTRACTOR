@@ -6,7 +6,7 @@ Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 To design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
-**Equipments Required:**
+**EQUIPMENTS REQUIRED:**
 
 Hardware – PCs, Cyclone II , USB flasher 
 
@@ -33,9 +33,11 @@ Borrow = A’B
 
 Figure -02 HALF Subtractor
 
-**Truthtable**
+**TRUTH TABLE:**
+![1](https://github.com/user-attachments/assets/01d51fd5-b700-43f5-8d6e-53f4b51ac4e6)
 
-**Procedure**
+
+**PROCEDURE:**
 
 1.	Type the program in Quartus software.
 
@@ -48,14 +50,28 @@ Figure -02 HALF Subtractor
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+**PROGRAM:**
 
-/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+```
+module exp3(a,b,x,y,sum,dif,car,bor);
+input a,b,x,y;
+output sum,dif,car,bor;
+assign sum = a^b;
+assign car = a&b;
+assign dif = x^y;
+assign bor = ~x&y;
+endmodule
+```
+Developed by: RegisterNumber: 25002119
 
-Developed by: RegisterNumber:*/
+**RTL:**
+<img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/e4a6c60e-72ad-4756-9a1b-8a05794ca81d" />
 
-**RTL Schematic**
 
-**Output/TIMING Waveform**
+**TIMING WAVEFORM:**
+<img width="1920" height="1080" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/67664c68-2855-4bd1-9e96-58b6d4bb7f8b" />
 
-**Result:**
+
+**RESULT:**
+Thus, the program for half adder and half subractor has been succesfully executed.
